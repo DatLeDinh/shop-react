@@ -5,11 +5,12 @@ const Grid = (props) => {
     const style = {
         gap: props.gap ? `${props.gap}px` : '0',
     };
-    const col = props.gap ? `grid-col-${props.col}px` : '0';
-    // const mdCol = props.mdCol ? `grid-col-md-${props.mdCol}` : '';
-    // const smCol = props.smCol ? `grid-col-sm-${props.smCol}` : '';
-    const mdCol = props.mdCol ? `grid-col-${props.mdCol}` : '';
-    const smCol = props.smCol ? `grid-col-${props.smCol}` : '';
+    const col = props.gap ? `grid-col-${props.col}` : '0';
+    const mdCol = props.mdCol ? `grid-col-md-${props.mdCol}` : '';
+    const smCol = props.smCol ? `grid-col-sm-${props.smCol}` : '';
+
+    // const mdCol = props.mdCol ? `grid-col-${props.mdCol}` : '';
+    // const smCol = props.smCol ? `grid-col-${props.smCol}` : '';
 
     return (
         <div className={`grid ${col} ${mdCol} ${smCol}`} style={style}>

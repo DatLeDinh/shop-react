@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import Button from './Button';
 
 const HeroSlider = (props) => {
     const data = props.data;
@@ -27,7 +28,7 @@ const HeroSlider = (props) => {
                 clearInterval(slideAuto);
             };
         }
-    }, [timeOut]);
+    }, [timeOut, activeSilde]);
 
     return (
         <div className="hero-slider">
@@ -44,7 +45,9 @@ const HeroSlider = (props) => {
                             </div>
                             <div className="hero-slider__item__info__btn">
                                 <Link to={item.path}>
-                                    <button>Xem chi tiet</button>
+                                    <Button backGroundColor={item.color} icon="bx bx-cart" animate={true}>
+                                        Xem chi tiet
+                                    </Button>
                                 </Link>
                             </div>
                         </div>
