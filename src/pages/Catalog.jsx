@@ -17,7 +17,7 @@ const Catalog = () => {
         size: [],
     };
 
-    const productList = productData.getAllProducts;
+    const productList = productData.getAllProducts();
 
     const [products, setProducts] = useState(productList);
 
@@ -36,16 +36,16 @@ const Catalog = () => {
         }
         if (filter.size.length > 0) {
             temp = temp.filter((e) => {
-                const check = e.size.find((color) => filter.size.includes(size));
+                const check = e.size.find((size) => filter.size.includes(size));
                 return check !== undefined;
             });
         }
         setProducts(temp);
     }, [filter, setProducts]);
 
-    // useEffect(() => {
-    //     updateProducts();
-    // }, [updateProducts]);
+    useEffect(() => {
+        updateProducts();
+    }, [updateProducts]);
 
     const filterSelect = (type, checked, item) => {
         if (checked) {
@@ -64,7 +64,7 @@ const Catalog = () => {
         } else {
             switch (type) {
                 case 'CATEGORY':
-                    const newCategory = filter.category.filter((e) => e !== item.category);
+                    const newCategory = filter.category.filter((e) => e !== item.categorySlug);
                     setFilter({ ...filter, category: newCategory });
                     break;
                 case 'COLOR':
@@ -73,7 +73,7 @@ const Catalog = () => {
                     break;
                 case 'SIZE':
                     const newSize = filter.size.filter((e) => e !== item.size);
-                    setFilter({ ...setFilter, category: newSize });
+                    setFilter({ ...filter, size: newSize });
                     break;
                 default:
             }
@@ -139,7 +139,8 @@ const Catalog = () => {
 
                 <div className="catalog__content">
                     <Grid col={3} mdCol={2} smCol={1} gap={20}>
-                        {productData.getAllProducts().map((item, index) => {
+                        {/* {productData.getAllProducts().map((item, index) => { */}
+                        {products.map((item, index) => {
                             return (
                                 <ProductCard
                                     key={index}
