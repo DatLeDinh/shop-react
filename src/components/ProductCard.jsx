@@ -24,7 +24,7 @@ const ProductCard = (props) => {
             </Link>
             <div className="product-card__btn">
                 <Button size="sm" icon="bx bx-cart" animate={true}>
-                    Chon mua
+                    Chọn mua
                 </Button>
             </div>
         </div>

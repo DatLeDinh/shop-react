@@ -5,37 +5,37 @@ import logo from '../assets/images/Logo-2.png';
 
 const footerAboutLinks = [
     {
-        display: 'Gioi thieu',
+        display: 'Giới thiệu',
         path: '/about',
     },
     {
-        display: 'Lien he',
+        display: 'Liên hệ',
         path: '/contact',
     },
     {
-        display: 'Tuyen dung',
+        display: 'Tuyển dụng',
         path: '/about',
     },
     {
-        display: 'Tin tuc',
+        display: 'Tin tức',
         path: '/about',
     },
     {
-        display: 'He thong',
+        display: 'Hệ thống',
         path: '/about',
     },
 ];
 const footerCustomerLinks = [
     {
-        display: 'Chinh sach doi tra',
+        display: 'Chính sách đổi trả',
         path: '/about',
     },
     {
-        display: 'Chinh sach bao hanh',
+        display: 'Chính sách bảo hành',
         path: '/about',
     },
     {
-        display: 'Chinh sach hoan tien',
+        display: 'Chính sách hoàn tiền',
         path: '/about',
     },
 ];
@@ -46,22 +46,22 @@ const Footer = () => {
             <div className="container">
                 <Grid col={4} mdCol={4} smCol={1} gap={10}>
                     <div>
-                        <div className="footer__title">Tong dai ho tro</div>
+                        <div className="footer__title">TỔNG ĐÀI HỖ TRỢ</div>
                         <div className="footer__content">
                             <p>
-                                Lien he dat hang <strong>1111111111</strong>
+                                Liên hệ đặt hàng <strong>1111111111</strong>
                             </p>
                             <p>
-                                Thac mac don hang <strong>1111111111</strong>
+                                Thắc mắc đơn hàng <strong>1111111111</strong>
                             </p>
                             <p>
-                                Gop y , khieu nai <strong>1111111111</strong>
+                                Góp ý, khiếu nại <strong>1111111111</strong>
                             </p>
                         </div>
                     </div>
 
                     <div>
-                        <div className="footer__title">Ve yolo</div>
+                        <div className="footer__title">Về YOLO</div>
                         <div className="footer__content">
                             {footerAboutLinks.map((item, index) => {
                                 return (
@@ -73,7 +73,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div>
-                        <div className="footer__title">Cham soc khach hang</div>
+                        <div className="footer__title">Chăm sóc khách hàng</div>
                         <div className="footer__content">
                             {footerCustomerLinks.map((item, index) => {
                                 return (

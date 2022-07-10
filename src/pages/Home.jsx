@@ -35,7 +35,7 @@ const Home = () => {
 
             {/* Best selling */}
             <Section>
-                <SectionTitle>TOP SAN PHAM BAN CHAYJ TRONG TUAN</SectionTitle>
+                <SectionTitle>TOP SẢN PHẨM BÁN CHẠY TRONG TUẦN</SectionTitle>
                 <SectionBody>
                     <Grid col={4} mdCol={2} smCol={1} gap={20}>
                         {productData.getProducts(8).map((item, index) => {

@@ -28,7 +28,7 @@ const HeroSlider = (props) => {
                 clearInterval(slideAuto);
             };
         }
-    }, [timeOut, activeSilde]);
+    }, [activeSilde, timeOut]);
 
     return (
         <div className="hero-slider">
@@ -46,7 +46,7 @@ const HeroSlider = (props) => {
                             <div className="hero-slider__item__info__btn">
                                 <Link to={item.path}>
                                     <Button backGroundColor={item.color} icon="bx bx-cart" animate={true}>
-                                        Xem chi tiet
+                                        Xem chi tiết
                                     </Button>
                                 </Link>
                             </div>
