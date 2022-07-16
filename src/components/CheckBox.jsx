@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { useRef } from 'react';
 
 const CheckBox = (props) => {
-    const inputRef = React.useRef(null);
+    const inputRef = useRef(null);
 
     const onChange = () => {
         if (props.onChange) {
@@ -12,7 +13,7 @@ const CheckBox = (props) => {
 
     return (
         <label className="custom-checkbox">
-            <input type="checkbox" ref={inputRef} onChange={onChange} checked={props.hecked}></input>
+            <input type="checkbox" ref={inputRef} onChange={onChange} checked={props.checked}></input>
             <span className="custom-checkbox__checkmark">
                 <i className="bx bx-check"></i>
             </span>

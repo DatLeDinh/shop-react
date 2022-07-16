@@ -22,11 +22,13 @@ const ProductCard = (props) => {
                     </span>
                 </div>
             </Link>
-            <div className="product-card__btn">
-                <Button size="sm" icon="bx bx-cart" animate={true}>
-                    Chọn mua
-                </Button>
-            </div>
+            <Link to={`/cataLog/${props.slug}`}>
+                <div className="product-card__btn">
+                    <Button size="sm" icon="bx bx-cart" animate={true}>
+                        Chọn mua
+                    </Button>
+                </div>
+            </Link>
         </div>
     );
 };

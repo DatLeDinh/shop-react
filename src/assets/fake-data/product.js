@@ -45,6 +45,8 @@ const products = [
         colors: ['white', 'red', 'orange'],
         slug: 'ao-thun-dinosaur-01',
         size: ['s', 'm', 'l', 'xl'],
+        description:
+            'MẪU 1M82 65KG MẶC SIZE MẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZE EMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZE EMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZE EMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZE EMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZE EMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZE EMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZE EMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZE EMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZE EMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZE EMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZE EMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZE EMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZE EMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZE EMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZE EMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZE EMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZE EMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZE EMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZE EMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZE EMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZE EMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZE EMẪU 1M82 65KG MẶC SIZEMẪU 1M82 65KG MẶC SIZE         ',
     },
     {
         title: 'Áo thun Dinosaur 02',
@@ -55,6 +57,7 @@ const products = [
         colors: ['white', 'red', 'blue'],
         slug: 'ao-thun-dinosaur-02',
         size: ['s', 'm'],
+        description: 'MẪU 1M82 65KG MẶC SIZE         ',
     },
     {
         title: 'Áo thun Dinosaur 03',
@@ -65,6 +68,7 @@ const products = [
         colors: ['white', 'red', 'orange', 'yellow'],
         slug: 'ao-thun-dinosaur-03',
         size: ['m'],
+        description: 'MẪU 1M82 65KG MẶC SIZE         ',
     },
     {
         title: 'Áo thun Polo 04',
@@ -75,6 +79,7 @@ const products = [
         colors: ['white', 'orange', 'blue'],
         slug: 'ao-thun-polo-04',
         size: ['xl'],
+        description: 'MẪU 1M82 65KG MẶC SIZE         ',
     },
     {
         title: 'Áo thun Polo 05',
@@ -85,6 +90,7 @@ const products = [
         colors: ['white', 'pink'],
         slug: 'ao-thun-polo-05',
         size: ['xxl'],
+        description: 'MẪU 1M82 65KG MẶC SIZE         ',
     },
     {
         title: 'Áo thun Polo 06',
@@ -95,6 +101,7 @@ const products = [
         colors: ['black'],
         slug: 'ao-thun-polo-06',
         size: ['s', 'm', 'xl'],
+        description: 'MẪU 1M82 65KG MẶC SIZE         ',
     },
     {
         title: 'Áo somi caro 07',
@@ -105,6 +112,7 @@ const products = [
         colors: ['white', 'red', 'orange', 'blue'],
         slug: 'ao-somi-caro-07',
         size: ['l', 'xl'],
+        description: 'MẪU 1M82 65KG MẶC SIZE         ',
     },
     {
         title: 'Áo somi dài tay 08',
@@ -115,6 +123,7 @@ const products = [
         colors: ['white', 'red', 'black'],
         slug: 'ao-somi-dai-tay-08',
         size: ['s', 'm', 'xl'],
+        description: 'MẪU 1M82 65KG MẶC SIZE         ',
     },
     {
         title: 'Áo somi tay dài 09',
@@ -125,6 +134,7 @@ const products = [
         colors: ['white', 'blue'],
         slug: 'ao-somi-tay-dai-09',
         size: ['m'],
+        description: 'MẪU 1M82 65KG MẶC SIZE         ',
     },
     {
         title: 'Quần jean phong cách 10',
@@ -135,6 +145,7 @@ const products = [
         colors: ['blue', 'black'],
         slug: 'quan-jean-phong-cach-10',
         size: ['l'],
+        description: 'MẪU 1M82 65KG MẶC SIZE         ',
     },
     {
         title: 'Quần jean 11',
@@ -145,6 +156,7 @@ const products = [
         colors: ['blue', 'black'],
         slug: 'quan-jean-11',
         size: ['s', 'm', 'xl'],
+        description: 'MẪU 1M82 65KG MẶC SIZE         ',
     },
     {
         title: 'Quần jean 12',
@@ -155,6 +167,7 @@ const products = [
         colors: ['blue'],
         slug: 'quan-jean-12',
         size: ['s', 'm', 'xl'],
+        description: 'MẪU 1M82 65KG MẶC SIZE         ',
     },
     {
         title: 'Áo thun Dinosaur 13',
@@ -165,6 +178,7 @@ const products = [
         colors: ['white', 'red'],
         slug: 'ao-thun-dinosaur-13',
         size: ['s', 'm', 'xl'],
+        description: 'MẪU 1M82 65KG MẶC SIZE         ',
     },
     {
         title: 'Áo thun Dinosaur 14',
@@ -175,6 +189,7 @@ const products = [
         colors: ['white', 'blue'],
         slug: 'ao-thun-dinosaur-14',
         size: ['s', 'm'],
+        description: 'MẪU 1M82 65KG MẶC SIZE         ',
     },
     {
         title: 'Áo thun Dinosaur 15',
@@ -185,6 +200,7 @@ const products = [
         colors: ['red', 'blue'],
         slug: 'ao-thun-dinosaur-15',
         size: ['xl'],
+        description: 'MẪU 1M82 65KG MẶC SIZE         ',
     },
     {
         title: 'Áo somi dài tay 16',
@@ -195,6 +211,7 @@ const products = [
         colors: ['blue', 'black'],
         slug: 'ao-somi-dai-tay-16',
         size: ['m', 'xl'],
+        description: 'MẪU 1M82 65KG MẶC SIZE         ',
     },
     {
         title: 'Áo somi tay dài 17',
@@ -205,6 +222,7 @@ const products = [
         colors: ['white', 'blue'],
         slug: 'ao-somi-tay-dai-17',
         size: ['s', 'l', 'xl'],
+        description: 'MẪU 1M82 65KG MẶC SIZE         ',
     },
     {
         title: 'Quần jean phong cách 18',
@@ -215,6 +233,7 @@ const products = [
         colors: ['blue', 'black'],
         slug: 'quan-jean-phong-cach-18',
         size: ['s', 'm', 'l', 'xl'],
+        description: 'MẪU 1M82 65KG MẶC SIZE         ',
     },
     // 18 products
 ];
@@ -228,9 +247,12 @@ const getProducts = (count) => {
     return products.slice(start, start + count);
 };
 
+const getProductBySlug = (slug) => products.find((e) => e.slug === slug);
+
 const productData = {
     getAllProducts,
     getProducts,
+    getProductBySlug,
 };
 
 export default productData;
