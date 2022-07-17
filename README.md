@@ -1,7 +1,7 @@
 # Review 
 
 
-<img width="2560" alt="Screen Shot 2022-07-15 at 18 41 25 (2)" src="https://user-images.githubusercontent.com/73160241/179384881-84052ab7-acc2-47de-a8fa-6675e2e909de.png">
+
 <img width="2552" alt="Screen Shot 2022-07-17 at 12 08 37" src="https://user-images.githubusercontent.com/73160241/179384884-5899b058-9e1d-449d-95fb-06a9daba1781.png">
 <img width="1266" alt="Screen Shot 2022-07-17 at 12 09 01" src="https://user-images.githubusercontent.com/73160241/179384887-571893e7-ef70-4930-a59a-9453c865b8b8.png">
 <img width="1258" alt="Screen Shot 2022-07-17 at 12 09 10" src="https://user-images.githubusercontent.com/73160241/179384889-045614e1-7f2e-448d-8f7e-53686e5a1d21.png">
